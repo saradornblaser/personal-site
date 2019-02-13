@@ -86,6 +86,32 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./client/index.js":
+/*!*************************!*\
+  !*** ./client/index.js ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// import React from 'react'
+// import ReactDOM from 'react-dom'
+// import { Provider } from 'react-redux'
+// import { Router } from 'react-router-dom'
+// import history from './history'
+// import store from './store'
+// import App from './app'
+// import './styles/index.css'
+// ReactDOM.render(
+//   <Provider store={store}>
+//     <Router history={history}>
+//       <App />
+//     </Router>
+//   </Provider>,
+//   document.getElementById('app')
+// )
+
+/***/ }),
+
 /***/ "./node_modules/babel-polyfill/lib/index.js":
 /*!**************************************************!*\
   !*** ./node_modules/babel-polyfill/lib/index.js ***!
@@ -11126,14 +11152,14 @@ module.exports = g;
 /***/ }),
 
 /***/ 0:
-/*!**************************************************!*\
-  !*** multi babel-polyfill ./client/gameLogic.js ***!
-  \**************************************************/
+/*!**********************************************!*\
+  !*** multi babel-polyfill ./client/index.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! babel-polyfill */"./node_modules/babel-polyfill/lib/index.js");
-!(function webpackMissingModule() { var e = new Error("Cannot find module './client/gameLogic.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+module.exports = __webpack_require__(/*! ./client/index.js */"./client/index.js");
 
 
 /***/ })
